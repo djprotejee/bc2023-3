@@ -2,7 +2,7 @@ const fs = require('node:fs');
 
 fs.readFile('data.json', 'utf-8', (err, data) => {
     if (err === null) {
-        console.log(data.toString());
+        //console.log(data.toString());
         const JSONdata = JSON.parse(data);
         const output = [];
 
